@@ -1,0 +1,47 @@
+\begin{table}[htbp]
+  \centering
+  \begin{tabular}{>{\bfseries}l l l c c}
+    \toprule
+    \textbf{Parte} & \multicolumn{2}{c}{\textbf{Elemento}} & \textbf{Obrigatoriedade} & \textbf{FEITO} \\ 
+    \midrule\midrule
+    
+    \multirow{2}{*}{Parte externa} 
+      & \multicolumn{2}{l}{Capa} & Obrigatório & SIM \\ 
+      & \multicolumn{2}{l}{Lombada} & Opcional\tablefootnote{Lombada obrigatória apenas para trabalhos encadernados} & --- \\ 
+    \midrule
+    
+    \multirow{21}{*}{Parte interna} 
+      & \multirow{13}{*}{Elementos pré-textuais} 
+      & Folha de rosto & Obrigatório & SIM \\ 
+      & & Errata & Opcional & --- \\ 
+      & & Folha de aprovação & Obrigatório\tablefootnote{A folha de aprovação é obrigatória para Teses e Dissertações.} & SIM\\ 
+      & & Dedicatória & Opcional & SIM \\ 
+      & & Epígrafe & Opcional & SIM \\ 
+      & & Resumo na língua vernácula & Obrigatório & SIM \\ 
+      & & Resumo em língua estrangeira & Obrigatório & SIM \\ 
+      & & Lista de ilustrações & Opcional & SIM \\ 
+      & & Lista de tabelas & Opcional & SIM \\ 
+      & & Lista de abreviaturas e siglas & Opcional & SIM \\ 
+      & & Lista de símbolos & Opcional & SIM \\ 
+      & & Sumário & Obrigatório & SIM \\ 
+    \cline{2-5}
+    
+      & \multirow{3}{*}{Elementos textuais} 
+      & Introdução & Obrigatório & SIM \\ 
+      & & Desenvolvimento & Obrigatório & SIM \\ 
+      & & Conclusão & Obrigatório & SIM \\ 
+    \cline{2-5}
+    
+      & \multirow{5}{*}{Elementos pós-textuais} 
+      & Referências & Obrigatório & SIM \\ 
+      & & Glossário & Opcional & --- \\ 
+      & & Apêndice & Opcional & SIM \\ 
+      & & Anexo & Opcional & SIM \\ 
+      & & Índice & Opcional & --- \\ 
+    \bottomrule
+  \end{tabular}
+  \caption{Elementos já implementados. Aqueles com --- na coluna FEITO não serão implementados no momento ou no futuro próximo.}
+  \label{tab:tabela_elementos}
+\end{table}
+\vfill
+\pagebreak
